@@ -1,3 +1,10 @@
+/* Shared Style. */
+.btn {
+  color: #FF900E;
+  border-radius: 8px;
+  color: #FFF;
+  font-weight: 600;
+}
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
 * {
   margin: 0rem;
@@ -31,4 +38,33 @@ nav li a {
   color: #424242;
   font-size: 1.2rem;
   font-weight: 500;
+}
+/* Banner Section. */
+.banner-container {
+  
+}
+.banner-content {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner-title {
+  color: #131313;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-description {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.btn-primary {
+  width: 180px;
+height: 64px;
+font-size: 20px;
+}
+.banner-img {
+  margin: 50 240px;
+  width: 1920px;
+height: 1322px;
 }
